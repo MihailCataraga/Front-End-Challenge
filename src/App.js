@@ -1,21 +1,18 @@
 import Keyboard from './components/Keyboard';
 
 function App() {
-  // onkeydown event
+  // onkeydown
   window.onkeydown = function(e) {
     if(e.code === document.getElementById(e.code).innerHTML) {
       document.getElementById("box-" + e.code).classList.add('blue')
     }
-  };
-  // onkeyup event
-  window.onkeyup = function(e) {
-    if(e.code === document.getElementById(e.code).innerHTML) {
+    setTimeout(() => {
       document.getElementById("box-" + e.code).classList.remove("blue");
       document.getElementById("box-" + e.code).classList.add('green');
-    }
-  }
+    }, 3000)
+  };
   return (
-    <div className="App">
+    <div className="App d-flex a-center">
       <Keyboard />
     </div>
   );
