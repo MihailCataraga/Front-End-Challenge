@@ -10,6 +10,9 @@ function App() {
       document.getElementById("box-" + e.code).classList.remove("blue");
       document.getElementById("box-" + e.code).classList.add('green');
     }, 3000)
+    setTimeout(() => {
+      document.getElementById("box-" + e.code).classList.remove("green");
+    }, 60000)
   };
   return (
     <div className="App d-flex a-center">
