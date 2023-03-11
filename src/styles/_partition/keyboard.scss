@@ -1,0 +1,55 @@
+.keyboard{
+    background-color: grey;
+    padding: 20px;
+    width: 1030px;
+    .left{
+        width: 770px;
+        margin-right: 30px;
+        .firstRow{
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .secondRow{
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .thirdRow{
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .fourthRow{
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .fifthRow{
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .sixthRow{
+            gap: 10px;
+        }
+    }
+    .right{
+        width: 200px;
+        .firstRow{
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .secondRow{
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .thirdRow{
+            gap: 10px;
+            margin-bottom: 45px;
+        }
+        .fourthRow{
+            gap: 10px;
+            margin-bottom: 10px;
+            margin-left: 70px;
+        }
+        .fifthRow{
+            gap: 10px;
+        }
+    }
+}
